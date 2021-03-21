@@ -1,5 +1,5 @@
 import { Box, Button } from '@material-ui/core';
-import Intro from '../pages/home/intro';
+import Intro from '../components/intro';
 const Index = () => {
     return (
         <Intro />

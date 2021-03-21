@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import Head from 'next/head';
 import { ThemeProvider } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import theme from '../pages/theme';
-import Layout from '../../components/Layout';
+import theme from '../styles/theme';
+import Layout from '../components/Layout';
 
 
 export default function MyApp(props) {
